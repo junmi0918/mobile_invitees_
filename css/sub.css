@@ -1,0 +1,302 @@
+/* sub.css */
+/* 오시는길 */
+#map {
+    background: rgb(255, 255, 255);
+    position: relative;
+    top: 270px;
+    margin-bottom: 20px;
+}
+
+#map .map_header img {
+    width: 100%;
+}
+
+#map .address {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#map .address h3 {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#map .address p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+#map .map_link iframe {
+ width: 100%;
+ height: 480px;
+ margin-bottom: 50px;
+}
+
+/* 인사말 */
+
+#greeting {
+    position: relative;
+    top: 290px;
+    width: 100%;
+    height: 667px;
+    background: url(../img/sub_back_img.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+#greeting .meet {
+    margin-top: 20%;
+    text-align: center;
+}
+
+#greeting .meet h1 {
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+#greeting .meet p {
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+} 
+
+#greeting .meet .small {
+    margin-top: 50px;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+#greeting .meet .box {
+    position: static;
+    display: inline-block;
+    background: #fff;
+    /* left: 170px; top: 550px; */
+    margin-top: 30px;
+    left: 175px;
+    width: 70px;
+    height: 3px;
+}
+
+#greeting .meet .margin01 {
+    margin-top: 30px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#greeting .meet .margin02 {
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 0.9em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 갤러리 */
+
+#gallery {
+    background: rgb(0, 0, 0);
+    position: relative;
+    padding-bottom: 20px;
+    top: 280px;
+}
+
+#gallery #main {
+    margin-bottom: 40px;
+}
+
+#gallery .header_box {
+    display: none;
+  }
+  
+  #gallery .gallery_header img {
+    width: 100%;
+
+  }
+  
+  #gallery .header_box {
+    display: none;
+  }
+  
+  #gallery #main figure {
+    max-width: 1000px;
+    /* outline: 2px solid red; */
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  #gallery #main figure img {
+    width: 100%;
+  }
+  
+  #gallery #main ul {
+    /* outline: 2px solid green; */
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  #gallery #main ul li {
+    width: calc(100% / 9);
+    float: left;
+    /* outline: 2px solid red; */
+    border: 0.5px solid #e6e6e6;
+    overflow: hidden;
+  }
+  
+  #gallery #main ul li:hover {
+    border: 3px solid #ff7878;
+  }
+  
+  #gallery #main ul li a img {
+    width: 100%;
+    display: block;
+  }
+
+  /* 갤러리 모바일 목록 구성 */
+
+@media screen and (max-width: 500px) {
+    .clear { clear: both;}
+    #gallery #main ul.thumb {
+      overflow: hidden;
+      width: 100%;
+      margin-left: 20px;
+    }
+  #gallery #main ul.thumb li {
+      width: calc((100% - 40px) / 3);
+      float: left;
+      /* outline: 2px solid red; */
+      /* border: 1px solid #707070; */
+      overflow: hidden;
+    }
+}
+
+#main_visual {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+/* 연락처 */
+
+#contact {
+    background: rgb(255, 255, 255);
+    position: relative;
+    top: 220px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contact .container {
+    width: 100%;
+    text-align: center;
+}
+
+#contact .contact_header img {
+    width: 100%;
+}
+
+#contact .contact_header {
+    margin-top: 40px;
+    /* margin-bottom: 30px; */
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul li a img {
+    width: 40px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+/* #contact .man_contact {
+    background: #d0e5fd;
+} */
+
+#contact .man_contact h4 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    /* border: 2px solid #ff7878; */
+}
+
+#contact .man_contact h3 {
+    font-weight: 400;
+}
+
+/* 신랑 아버지 */
+
+#contact .parents_dad {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 50%;
+    margin-top: 30px;
+}
+
+#contact .parents_dad h3 {
+    font-weight: 400;
+}
+
+#contact .parents_dad .container {
+    /* border: 1px solid rgb(41, 147, 196); */
+    position: absolute;
+}
+    
+
+#contact .parents_dad .mom {
+    position: absolute;
+    left: 200px;
+
+}
+
+/* 신부 */
+
+#contact #contact_girl {
+    position: relative;
+    top: 220px;
+    padding-bottom: 80px;
+    /* background: #ffcfcf; */
+}
+
+#contact #contact_girl .girl_contact .container h4 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#contact #contact_girl h3 {
+    font-weight: 400;
+}
+
+#contact .parents_dad.two {
+    margin-bottom: 200px;
+}
+
+#contact .parents_dad .bank {
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-left: 50%;
+}
+
+/* 경고문구 */
+
+.warning {
+    position: relative;
+}
+
+.warning h5 {
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size: 16px;
+    color: red;
+}
+   
